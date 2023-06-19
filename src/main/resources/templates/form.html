@@ -62,6 +62,14 @@
 
         <div th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></div>
 
+        <div>
+            <label for="cuenta">Cuenta</label>
+            <div>
+                <input type="text" name="email" id="cuenta" th:field="*{cuenta}">
+            </div>
+        </div>
+
+        <div th:if="${#fields.hasErrors('cuenta')}" th:errors="*{cuenta}"></div>
 
         <div>
             <div>
